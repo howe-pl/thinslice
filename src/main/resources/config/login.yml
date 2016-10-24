@@ -1,0 +1,13 @@
+server:
+  applicationContextPath: /*
+  adminContextPath: /thinslice-admin/*
+  applicationConnectors:
+  - type: http
+    port: 8086
+  adminConnectors:
+  - type: http
+    port: 8087
+  registerDefaultExceptionMappers: true
+
+mongo:
+  databaseName: thinslice-dev

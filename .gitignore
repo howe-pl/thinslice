@@ -1,0 +1,9 @@
+/.idea
+/classes
+.idea
+*.iml
+/.gradle
+*.DS_Store
+build
+
+/src/main/resources/config/development.yml
